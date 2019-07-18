@@ -3,14 +3,19 @@
 void main()
 {
 printf("welcome to horizon 2k19");
-int a,b,c,d;
+int a,b,c,d,e;
 printf("Enter value of a:",a);
 scanf("%d" ,&a);
-printf("Enter value of b:",a);
+printf("Enter value of b:",b);
 scanf("%d" ,&b);
+
+printf("Enter value of e:",e);
 c=a+b;
 printf("addition is: %d" ,&c);
 d=a-b;
 scanf("subtraction is: %d" ,&d);
+printf("the multiplication is:");
+e=a*b
+
 getch();
 }
